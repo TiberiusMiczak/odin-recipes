@@ -1,1 +1,2 @@
 # odin-recipes
+This is my first Odin project on the rocky road to be a developer. I will create a basic recipe website, using html boilerplate, placing headers, paragraphs, links directing to other pages of the site and filling it with images.
