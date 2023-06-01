@@ -1,0 +1,22 @@
+*{
+    font-family: "Arial", sans-serif;
+}
+#Main-Title{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+a{
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
+.main-images{
+    height: auto;
+    width: 400px;
+}
