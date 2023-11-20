@@ -1,15 +1,19 @@
 *{
     font-family: "Arial", sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 #Main-Title, h1{
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 5px;
     background-color: rgb(70, 116, 255);
     color: white;
-    margin-top: -10px;
+    /*margin-top: 0px;
     margin-bottom: 30px;
     margin-left: -10px;
-    margin-right: -10px;
+    margin-right: -10px;*/
 }
 a{
     font-size: 20px;
@@ -33,4 +37,39 @@ li{
 body{
     background-color: rgb(134, 162, 255);
 }
-h1
+.navigation_bar{
+    display: flex;
+    padding: 20px;
+    background-color: rgb(70, 116, 255);
+    margin-bottom: 20px;
+}
+.navigation_bar div {
+    flex: 1;
+    height: 100px;
+}
+.backbuttons{
+    background-color: rgb(161, 185, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+.recipes{
+    display: flex;
+    justify-content: center;
+}
+.recipes-grid {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.recipe {
+    background-color: rgb(196, 234, 255);
+    margin: 10px;
+    border: 1px solid #fff;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    border-radius: 12px;
+}
+.Website-name {
+    margin-bottom: 20px;
+}
